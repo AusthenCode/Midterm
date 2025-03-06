@@ -50,34 +50,45 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 2px solid #e2336b;
+    margin-top: 30px;
+    margin-left: 1000px;
 }
 
 .profile-img img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     border-radius: 50%;
     object-position: center;
 }
 
 .name {
-    display: flex;
+    display: inline-grid;
     align-items: center;
     margin: 1rem 0 0 1rem;
 }
 
 .name h1 {
     font-size: 1.1rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    color: #c4bfbf;
+    position: right;
+    vertical-align: top;
+    margin-left: 1150px;
+    justify-content: center;
 }
 
 .profile span{
     font-size: .9rem;
     font-weight: 400;
+    color:#c4bfbf;
+    vertical-align: top;
+    margin-left: 1170px;
+    justify-content: center;
 }
 
 .about {
