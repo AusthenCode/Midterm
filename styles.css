@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     font-family: Arial;
     padding: 0;
@@ -7,23 +9,23 @@
     list-style: none;
 }
 
-:root {
-    background: linear-gradient(to right, #e2336b, #fcac46);
-}
-
 body {
     background-color: #0b0000;
+    position: relative;
 }
 
-.sidebar{
-    position: fixed;
+.navbar {
+    background: #0b0000;
+    position: absolute;
     width: 300px;
-    height: 100vh;
+    height: 100%;
     z-index: 2;
     padding: 20px;
-    background: #0b0000;
+    float: right;
 }
-
+.navbar li {
+    padding: 10px;
+  }
 .homesc {
     position: absolute;
     width: calc(100% - 300px);
@@ -35,7 +37,9 @@ body {
 }
 
 .logo img {
-    width: 140px;
+    width: 120px;
+    margin: 25px 20px;
+    
 }
 
 .profile {
@@ -107,55 +111,64 @@ body {
     margin-left: 1150;
 }
 
-.about {
+.main_stories {
+    width: 100%;
+    padding: 40px;
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 50px;
 }
 
-.box {
-    text-align: center;
+.wrapper {
+    width: 70%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
 }
 
-.box1 h1 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #fff;
+.left {
+    display: flex;
+    flex-direction: column;
 }
 
-.box2 h1 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #fff;
+.story-wrapper {
+    width: 100%;
+    height: 120px;
+    border: 1px solid white;
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
 }
 
-.box3 h1 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #fff;
+.card {
+    flex: 0 0 auto;
+    width: 80px;
+    max-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
 }
 
-.box1 span {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: .9rem;
-    font-weight: 400;
-    color: #fff;
-    margin-left: 1170px;
+.sprofile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
 }
 
-.box2 span {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: .9rem;
-    font-weight: 400;
-    color: #fff;
-    margin-left: 1170px;
-}.box3 span {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: .9rem;
-    font-weight: 400;
-    color: #fff;
-    margin-left: 1170px;
+.sprofile-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.card p{
+    color: white;
 }
