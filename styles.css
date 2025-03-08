@@ -46,6 +46,14 @@ body {
     margin-top: 1.4rem;
 }
 
+.profile hr {
+    width: 250px;
+    color:#fff;
+    background-color: #fff;
+    margin-left: 1150;
+    margin-top: 50;
+}
+
 .profile-img {
     display: flex;
     justify-content: center;
@@ -66,29 +74,37 @@ body {
     object-position: center;
 }
 
-.name {
-    display: inline-grid;
-    align-items: center;
-    margin: 1rem 0 0 1rem;
-}
-
-.name h1 {
+.profile h1 {
     font-size: 1.1rem;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     color: #c4bfbf;
     position: right;
     vertical-align: top;
-    margin-left: 1150px;
+    margin-left: 1180px;
     justify-content: center;
+    z-index: 2;
+    position: absolute;
 }
 
-.profile span{
-    font-size: .9rem;
-    font-weight: 400;
-    color:#c4bfbf;
+.profile h2 {
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+    color: #c4bfbf;
+    position: right;
     vertical-align: top;
-    margin-left: 1170px;
+    margin-left: 1180px;
     justify-content: center;
+    z-index: 8;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.suggested h3{
+    font-size: large;
+    text-decoration: bold;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 1150;
 }
 
 .about {
@@ -101,14 +117,45 @@ body {
     text-align: center;
 }
 
-.box h3 {
+.box1 h1 {
     font-size: 1rem;
     font-weight: 500;
+    color: #fff;
 }
 
-.box span {
+.box2 h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.box3 h1 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.box1 span {
     margin-left: 5px;
     margin-right: 5px;
     font-size: .9rem;
     font-weight: 400;
+    color: #fff;
+    margin-left: 1170px;
+}
+
+.box2 span {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 1170px;
+}.box3 span {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 1170px;
 }
