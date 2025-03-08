@@ -80,24 +80,18 @@ body {
 
 .profile h1 {
     font-size: 1.1rem;
-    margin-bottom: 100px;
+    margin-bottom: 450px;
     color: #c4bfbf;
-    position: right;
-    vertical-align: top;
     margin-left: 1180px;
-    justify-content: center;
     z-index: 2;
     position: absolute;
 }
 
 .profile h2 {
     font-size: 1.1rem;
-    margin-bottom: 60px;
+    margin-bottom: 400px;
     color: #c4bfbf;
-    position: right;
-    vertical-align: top;
-    margin-left: 1180px;
-    justify-content: center;
+    margin-left: 1190px;
     z-index: 8;
     margin-top: 20px;
     position: absolute;
@@ -111,6 +105,7 @@ body {
     margin-left: 1150;
 }
 
+<<<<<<< HEAD
 .main_stories {
     width: 100%;
     padding: 40px;
@@ -171,4 +166,21 @@ body {
 
 .card p{
     color: white;
+=======
+.sprofile-img img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 1100px;
+    margin-top: 50px;
+    transform: scale(1.1);
+}
+
+#follow {
+    margin-left: 1200px;
+    margin-top: -40px;
+    font-size: 16px;
+    color: #fff;
+>>>>>>> e7060d05e23d1dc858d13927223787c5a1af232c
 }
