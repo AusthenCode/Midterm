@@ -53,3 +53,9 @@ function setupDoubleClickLike() {
         });
     });
 }
+
+const jsonBlob = 'http://jsonblob.com/1349162247762665472';
+
+fetch('http://jsonblob.com/1349162247762665472')
+  .then(res => res.json())
+  .then(data => console.log(data));
