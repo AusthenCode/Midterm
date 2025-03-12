@@ -1,9 +1,33 @@
 <html>
     <head>
         <title>Instagram Clone/Mid-term</title>
-        <script src="https://kit.fontawesome.com/7c6838df9b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/7c6838df9b.js" crossorigin="anonymous"></script>
     </head>
+    <style>
+        .featured-post {
+          background-color: #1a1a1a;
+          color: white;
+          border: 2px solid #333;
+          border-radius: 12px;
+          margin: 40px auto;
+          width: 90%;
+          max-width: 900px;
+          padding-bottom: 20px;
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+          position: relative;
+          z-index: 1000;
+          transform: scale(1.2);
+          transform-origin: center top;
+        }
+        
+        .featured-post .post-image img {
+          width: 100%;
+          height: auto;
+          min-height: 500px;
+          object-fit: cover;
+        }
+    </style>
     <body>
         <div class="navbar">
             <a href="#" class="logo">
@@ -92,7 +116,7 @@
                         <div class="view-comments">View all 24 comments</div>
                         <div class="post-time">2 hours ago</div>
                     </div>
-                    <div class="post">
+                    <div class="post2">
                         <div class="post-header">
                             <div class="header-left">
                                 <img src="images/pfpic.jpg" alt="profile" class="profile-pic">
@@ -129,13 +153,14 @@
                 </div>
             </div>
         </section>
-        
 
         <div class="profile">
             <h1>BDylan</h1>
             <h2>Bob Dylan</h2>
             <div class="profile-img">
-                <img src="images/pfpic.jpg" alt="">
+                <a href="profile.html">
+                    <img src="images/pfpic.jpg" alt="">
+                </a>
             </div>
             <hr>
             <div class="suggested">
@@ -160,10 +185,5 @@
                 </div>
             </div>
         </div>
-
-        
-          
-        <div class="homesc"></div>
-        <script src="script.js"></script>
     </body>
 </html>

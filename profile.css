@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    background: #1a1a1a;
+    position: fixed;
+    width: 330px;
+    height: 100vh;
+    z-index: 2;
+    padding: 20px;
+    float: right;
+    border-right: .1px solid rgb(138, 135, 135);
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar li {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar li a{
+    color: white;
+}
+
+.navbar li img{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+.fa-regular {
+    margin-right: 15px;
+}
+
+.sidebar{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    z-index: 2;
+    padding: 20px;
+    background: black;
+}
+
+.logo img {
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    display: flex;
+    width: 203px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #e2336b;
+    margin-top: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.profile-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
+.profile h1{
+    color: #f7ebebb2;
+    width: 200px;
+    font-size: 34px;
+    position: absolute;
+    margin-left: 430px;
+    margin-top: -70px;
+}
+
+.profile h2{
+    color: #f7ebebb2;
+    width: 200px;
+    font-size: 34px;
+    position: absolute;
+    margin-left: 450px;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.profile p{
+    color: #f7ebebb2;
+    width: 300px;
+    font-size: 34px;
+    position: absolute;
+    margin-left: 550px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.profile h3{
+    color: #f7ebebb2;
+    width: 300px;
+    font-size: 34px;
+    position: absolute;
+    margin-left: 550px;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+hr {
+    margin-top: 170px;
+    width: 25%;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: 650px;
+}
+
+.posts {
+    float: center;
+    height: 250px;
+    width: 250px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.posts img {
+    height: 250px;
+    width: 250px;
+}
+
+#pos {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 270px;
+    margin-top: 520px;
+    text-decoration: bold;
+}
+
+.container2 {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: 520px;
+}
